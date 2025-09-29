@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+applicants.csv
+weird_formats.txt
+Log_file.txt
+*.png
+.vscode/
+dist/
+build/
+*.spec
+.env
+/resumes
