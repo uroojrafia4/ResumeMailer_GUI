@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
-SERVER = "mail.everestx.us"
+SERVER = "smtp.gmail.com" 
 PORT = 465
 
 def send_mail(server):
